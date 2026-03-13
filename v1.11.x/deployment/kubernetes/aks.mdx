@@ -241,14 +241,14 @@ It takes a few minutes for all the pods to be correctly set-up and running.
 kubectl get pods -n openmetadata
 ```
 ```
-NAME                                                       READY   STATUS    RESTARTS   AGE
-openmetadata-dependencies-db-migrations-69fcf8c9d9-ctd2f   1/1     Running   0          4m51s
-openmetadata-dependencies-pgbouncer-d9476f85-bwht9         1/1     Running   0          4m54s
-openmetadata-dependencies-scheduler-5f785954cb-792ls       1/1     Running   0          4m54s
-openmetadata-dependencies-sync-users-b58ccc589-ncb2d       1/1     Running   0          4m47s
-openmetadata-dependencies-triggerer-684b8bb998-mbzvs       1/1     Running   0          4m53s
-openmetadata-dependencies-web-9f6b4ff-5hfqj                1/1     Running   0          4m53s
-opensearch-0                                               1/1     Running   0          42m
+NAME                                                       READY   STATUS    RESTARTS      AGE
+openmetadata-7fc6df4b4f-gd5mc                              1/1     Running   0             19h
+openmetadata-dependencies-api-server-79cf795c8f-tbhgv      1/1     Running   2 (44h ago)   44h
+openmetadata-dependencies-dag-processor-76f7b85847-mrt7v   2/2     Running   0             44h
+openmetadata-dependencies-scheduler-77b4698645-6ll4m       2/2     Running   0             44h
+openmetadata-dependencies-statsd-7784c6ff79-8pzmw          1/1     Running   0             44h
+openmetadata-dependencies-triggerer-0                      2/2     Running   0             40h
+opensearch-0                                               1/1     Running   0             44h
 
 ```
 
